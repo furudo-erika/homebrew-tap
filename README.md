@@ -1,17 +1,17 @@
-# furudo-erika/homebrew-tap
+# blackmagic-ai/homebrew-tap
 
-Homebrew tap for [BlackMagic AI](https://github.com/furudo-erika/blackmagic-desktop).
+Homebrew tap for [BlackMagic AI](https://blackmagic.run).
 
 ## Install
 
 ```sh
-brew install --cask furudo-erika/tap/blackmagic-ai
+brew install --cask blackmagic-ai/tap/blackmagic-ai
 ```
 
 Or add the tap first, then install:
 
 ```sh
-brew tap furudo-erika/tap
+brew tap blackmagic-ai/tap
 brew install --cask blackmagic-ai
 ```
 
@@ -27,6 +27,6 @@ brew upgrade --cask blackmagic-ai
 brew uninstall --cask blackmagic-ai
 ```
 
-Homebrew Cask automatically strips the macOS quarantine attribute on install, so
-you won't see the "BlackMagic AI is damaged and can't be opened" error that
+Homebrew Cask automatically strips the macOS quarantine attribute on install,
+so you won't see the "BlackMagic AI is damaged and can't be opened" error that
 appears when downloading the DMG directly from a browser.
