@@ -1,14 +1,14 @@
 cask "blackmagic-ai" do
-  version "0.5.60"
+  version "0.5.61"
 
   on_arm do
-    sha256 "3da25154208e328e7c40b0af3e747bc0937927525836109eed1bef63b671781b"
+    sha256 "a38fd1a2c692cf586ccf1e55eb5dd773fe05745c08b28735084830fad398eca1"
     url "https://pub-d259d1d2737843cb8bcb2b1ff98fc9c6.r2.dev/blackmagic-desktop/BlackMagic%20AI-#{version}-arm64.dmg",
         verified: "pub-d259d1d2737843cb8bcb2b1ff98fc9c6.r2.dev/blackmagic-desktop/"
   end
 
   on_intel do
-    sha256 "fafdb8bf603c021bea9bcd8428a3131cefed7dc332f4eb6d268b68629cb8aebd"
+    sha256 "31cba209b1a9a43b3db23dd5b7c070cf39e9d5786b9f2f0604f3740c7bed2521"
     url "https://pub-d259d1d2737843cb8bcb2b1ff98fc9c6.r2.dev/blackmagic-desktop/BlackMagic%20AI-#{version}.dmg",
         verified: "pub-d259d1d2737843cb8bcb2b1ff98fc9c6.r2.dev/blackmagic-desktop/"
   end
